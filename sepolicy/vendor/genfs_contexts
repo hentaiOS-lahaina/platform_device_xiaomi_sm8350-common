@@ -4,6 +4,9 @@ genfscon sysfs /class/qcom-battery u:object_r:vendor_sysfs_battery_supply:s0
 # Display
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary u:object_r:vendor_sysfs_graphics:s0
 
+# Double Tap Sensor
+genfscon sysfs /devices/platform/soc/a8c000.spi/spi_master/spi1/spi1.0/double_tap_pressed u:object_r:sysfs_touchpanel:s0
+
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc u:object_r:vendor_sysfs_fingerprint:s0
 

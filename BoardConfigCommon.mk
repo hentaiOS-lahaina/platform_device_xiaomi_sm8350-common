@@ -144,6 +144,9 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/double_tap"
+
 # Powershare
 SOONG_CONFIG_NAMESPACES += XIAOMI_POWERSHARE
 SOONG_CONFIG_XIAOMI_POWERSHARE := WIRELESS_TX_ENABLE_PATH

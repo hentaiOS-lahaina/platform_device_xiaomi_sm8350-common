@@ -131,7 +131,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml
 
 # Blur
-TARGET_USES_BLUR := true
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.supports_background_blur=1
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.sf.blurs_are_expensive=1
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400

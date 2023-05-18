@@ -496,7 +496,8 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/hardware/xiaomi
+    vendor/hardware/xiaomi \
+    vendor/qcom/opensource/commonsys-intf/display \
 
 # Telephony
 PRODUCT_PACKAGES += \

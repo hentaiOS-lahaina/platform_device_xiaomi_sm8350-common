@@ -4,11 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-on boot
-    # Powershare
-    chown system system /sys/class/qcom-battery/reverse_chg_mode
-    chmod 0644 /sys/class/qcom-battery/reverse_chg_mode
-
 on property:vendor.post_boot.parsed=1
     # IRQ Tuning
     # IRQ 70: msm_drm0

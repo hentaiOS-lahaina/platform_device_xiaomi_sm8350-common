@@ -500,7 +500,12 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/hardware/xiaomi
+    packages/apps/Bluetooth \
+    vendor/hardware/xiaomi \
+    vendor/qcom/opensource/commonsys/display \
+    vendor/qcom/opensource/commonsys-intf/display \
+    vendor/qcom/opensource/data-ipa-cfg-mgr-nogki \
+    vendor/qcom/opensource/dataservices
 
 # Telephony
 PRODUCT_PACKAGES += \

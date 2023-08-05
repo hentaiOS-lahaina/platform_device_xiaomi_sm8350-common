@@ -7,3 +7,6 @@ audio.spatializer.effect.util_clamp_min=300
 # RKPD
 remote_provisioning.enable_rkpd=true
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# Theme
+ro.boot.theme=1

@@ -108,6 +108,11 @@ BOARD_KERNEL_CMDLINE += \
     ip6table_raw.raw_before_defrag=1 \
     kpti=off
 
+BOARD_KERNEL_CMDLINE += \
+    androidboot.verifiedbootstate=green \
+    androidboot.vbmeta.device_state=locked \
+    androidboot.flash.locked=1
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 201326592

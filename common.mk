@@ -511,6 +511,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/data-ipa-cfg-mgr-nogki \
     vendor/qcom/opensource/dataservices
 
+# Set support one-handed mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \

@@ -307,6 +307,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
+# Kernel Binary
+TARGET_KERNEL_VERSION := 5.4
+
 # Kernel Headers
 PRODUCT_VENDOR_KERNEL_HEADERS += hardware/qcom-caf/sm8350/kernel-headers
 
